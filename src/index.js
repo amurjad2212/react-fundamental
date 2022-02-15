@@ -1,14 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
-import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
-	<React.StrictMode>
-		<App />
-	</React.StrictMode>,
+	<h1>Привет Мир!</h1>,
 	document.getElementById('root')
 );
 
-reportWebVitals();
